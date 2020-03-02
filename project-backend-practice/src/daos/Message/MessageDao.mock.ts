@@ -9,9 +9,11 @@ export interface IMessageDao {
 
 }
 
+// remove JSDoc stuff were using typescript now
 class MessageDao extends MockDaoMock implements IMessageDao {
     /***
     *  @param none
+    *
     */
     public async getAllMessages(): Promise<IMessage[]> {
         try {
