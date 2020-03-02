@@ -1,7 +1,6 @@
 import jsonfile from 'jsonfile';
 
 export class MockDaoMock {
- 
     // replace with connection to database relational possibly
     private readonly dbFilePath = 'src/daos/MockDb/MockDb.json';
 
