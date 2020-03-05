@@ -1,0 +1,9 @@
+{
+    "type": "mssql",
+    "host": "test-server-ivan.database.windows.net",
+    "username": "ivan.aimufua@punchcard.io@test-server-ivan",
+    "password": "24Kingswood",
+    "database": "Test-Database-Ivan",
+    "synchronize": true,
+    "logging": false
+ }

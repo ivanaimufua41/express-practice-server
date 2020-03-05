@@ -2,24 +2,12 @@
  *                          Fetch and display users
  ******************************************************************************/
 
-// displayUsers();
-displayAllMessages();
+displayUsers();
 
-// function displayUsers() {
-//     httpGet('/api/users/all')
-//         .then(response => response.json())
-//         .then((firstResponse) => {
-//             const allUsers = firstResponse.users;
-//             console.log(allUsers);
-//             // Empty the anchor
-//             const usersAnchor = document.getElementById('all-users-anchor');
-//             usersAnchor.innerHTML = '';
-//             // Append users to anchor
-//             allUsers.forEach((user) => {
-//                 allUsersAnchor.innerHTML += getUserDisplayEle(user);
-//             });
-//         });
-// };
+function displayUsers() {
+    httpGet('/api/users/all')
+        .then(response => console.log(response));
+};
 
 function displayAllMessages() {
     httpGet('/api/messages/all')
